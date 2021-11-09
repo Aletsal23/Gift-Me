@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú lateral responsive - MagtimusPro</title>
+
+    <link rel="stylesheet" href="css/estilosamg.css">
+
+    <script src="https://kit.fontawesome.com/844426b8df.js" crossorigin="anonymous"></script>
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body id="body">
+    
+    <header>
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>
+        </div>
+        <div class="logo_gm">
+            <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+        </div>
+    </header>
+
+    <div class="menu__side" id="menu_side">
+
+        <div class="name__page">
+            <i class="fas fa-gift"></i>
+            <h4>Gift-Me</h4>
+        </div>
+
+        <div class="options__menu">	
+
+            <a href="menu.html" >
+                <div class="option">
+                    <i class="fas fa-home" title="Inicio"></i>
+                    <h4>Inicio</h4>
+                </div>
+            </a>
+
+            <a href="ListaA.html" class="selected">
+                <div class="option">
+                    <i class="fas fa-list" title="ListaAmigos"></i>
+                    <h4>Lista de Amigos</h4>
+                </div>
+            </a>
+            
+            <a href="CrearInt.html">
+                <div class="option">
+                    <i class="fas fa-calendar-plus" title="CrearInt"></i>
+                    <h4>Crear Intercambios</h4>
+                </div>
+            </a>
+
+            <a href="IntCreados.html">
+                <div class="option">
+                    <i class="fas fa-clipboard-list" title="ListInt"></i>
+                    <h4>Lista de Intercambios</h4>
+                </div>
+            </a>
+
+            <a href="IngInt.html">
+                <div class="option">
+                    <i class="fas fa-gifts" title="IngInt"></i>
+                    <h4>Ingresar a Intercambio</h4>
+                </div>
+            </a>
+
+            <a href="index.html">
+                <div class="option">
+                    <i class="fas fa-user-slash" title="CerrarSes"></i>
+                    <h4>Cerrar sesión</h4>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <main>
+        
+    <div class="content">
+
+        <h1 class="logo">Lista de <span>Amigos</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Agregar Amigo</h3>
+                <form action="">
+                    <p class="block">
+                       <label>Nombre Completo</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p class="block">
+                       <label>Correo Electrónico</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p class="block">
+                        <button>
+                            Agregar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="text-img">
+            <figure><img src="images/amigos.png" alt="#"/></figure>
+        </div>
+            </div>
+        </div>
+
+    </div>
+     <div style="overflow-x:auto;">   
+        <div id="main-container">
+
+		<table>
+			<thead>
+				<tr>
+					<th>Nombre Completo</th><th>Correo Electrónico</th>
+				</tr>
+			</thead>
+
+			<tr>
+				<td>Jose Luis Antor Piedras</td><td>antor.airln@gmail.com</td>
+			</tr>
+			<tr>
+				<td>Giovanni Said Reyes Rosales</td><td>gio_skt12@hotmail.com</td>
+			</tr>
+			<tr>
+				<td>Luis Alejandro Barrios Ramírez</td><td>barrios.alecb@outlook.com</td>
+			</tr>
+		</table>
+	</div>
+        </div>
+    </main>
+
+    <script src="js/scriptmenu.js"></script>
+</body>
+</html>

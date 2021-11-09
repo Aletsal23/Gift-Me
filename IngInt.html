@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú lateral responsive - MagtimusPro</title>
+
+    <link rel="stylesheet" href="css/estilosingint.css">
+
+    <script src="https://kit.fontawesome.com/844426b8df.js" crossorigin="anonymous"></script>
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body id="body">
+    
+    <header>
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>
+        </div>
+        <div class="logo_gm">
+            <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+        </div>
+    </header>
+
+    <div class="menu__side" id="menu_side">
+
+        <div class="name__page">
+            <i class="fas fa-gift"></i>
+            <h4>Gift-Me</h4>
+        </div>
+
+        <div class="options__menu">	
+
+            <a href="menu.html" >
+                <div class="option">
+                    <i class="fas fa-home" title="Inicio"></i>
+                    <h4>Inicio</h4>
+                </div>
+            </a>
+
+            <a href="ListaA.html">
+                <div class="option">
+                    <i class="fas fa-list" title="ListaAmigos"></i>
+                    <h4>Lista de Amigos</h4>
+                </div>
+            </a>
+            
+            <a href="CrearInt.html">
+                <div class="option">
+                    <i class="fas fa-calendar-plus" title="CrearInt"></i>
+                    <h4>Crear Intercambios</h4>
+                </div>
+            </a>
+
+            <a href="IntCreados.html">
+                <div class="option">
+                    <i class="fas fa-clipboard-list" title="ListInt"></i>
+                    <h4>Lista de Intercambios</h4>
+                </div>
+            </a>
+
+            <a href="IngInt.html" class="selected">
+                <div class="option">
+                    <i class="fas fa-gifts" title="IngInt"></i>
+                    <h4>Ingresar a Intercambio</h4>
+                </div>
+            </a>
+
+            <a href="index.html">
+                <div class="option">
+                    <i class="fas fa-user-slash" title="CerrarSes"></i>
+                    <h4>Cerrar sesión</h4>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <main>
+        
+    <div class="content">
+
+        <h1 class="logo">Ingresar a <span>Intercambio</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <form action="">
+                    <p class="block">
+                       <label>Ingresa la clave de Intercambio</label>
+                        <input type="number" name="cvint">
+                    </p>
+                    <p class="block">
+                        <button>
+                            Mostrar
+                        </button>
+                    </p>
+                    </form>
+            </div>
+            <div class="contact-info">
+                <div class="text-img">
+            <figure><img src="images/gift.png" alt="#"/></figure>
+        </div>
+            </div>
+        </div>
+
+    </div>
+        <h1 class="logo">Información de <span>Intercambio</span></h1>
+        <div style="overflow-x:auto;">   
+        <div id="main-container">
+
+		<table>
+			<thead>
+				<tr>
+					<th>Participantes</th><th>Fecha límite de registro</th><th>Fecha de Intercambio</th><th>Temas de regalos</th><th>Valor máximo del regalo</th><th>Comentarios adicionales</th>
+				</tr>
+			</thead>
+
+			<tr>
+				<td>Jose Luis Antor Piedras</td><td>20/12/2021</td><td>24/12/2021</td><td>VideoJuegos</td><td>$800</td><td>Basarse en los</td>
+			</tr>
+			<tr>
+				<td>Giovanni Said Reyes Rosales</td><td></td><td></td><td>Accesorio de vestir</td><td></td><td>gustos de cada</td>
+			</tr>
+			<tr>
+				<td>Luis Alejandro Barrios Ramírez</td><td></td><td></td><td>Gadgets</td><td></td><td>Participante</td>
+		</table>
+	</div>
+        </div>
+        
+        <div class="content">
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <form action="">
+                    <p class="block">
+                       <label>Selecciona regalo de preferencia</label>
+                    </p>
+                    <p class="select">
+                       <label>Regalos:</label><br>
+                        <select name="" id="">
+                        <option value="">VideoJuegos</option>
+                        <option value="">Accesorios de vestir</option>
+                        <option value="">Gadgets</option>
+                        </select><br>
+                        <br>
+                     </p>
+                    </form>
+            </div>
+            <div class="contact-info">
+                <div class="text-img">
+            <figure><img src="images/gift.png" alt="#"/></figure>
+        </div>
+            </div>
+        </div>
+
+    </div>
+        
+        <div class="list-form">
+                <form action="">
+                        <button>
+                            Confirmar Intercambio
+                        </button>
+                        <button>
+                            Declinar Intercambio
+                        </button>
+                </form>
+            </div>
+    </main>
+
+    <script src="js/scriptmenu.js"></script>
+</body>
+</html>
